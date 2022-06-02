@@ -25,4 +25,9 @@ public class DistanceFormulaTest
   {
     Assertions.assertEquals(DistanceFormula.distance(1000,13,20000,84), 19022.067605809836);
   }
+  @Test
+  void test5()
+  {
+    Assertions.assertEquals(DistanceFormula.distance(1,0,4,5),5);
+  }
 }
